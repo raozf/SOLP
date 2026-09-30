@@ -77,17 +77,3 @@ The following six demonstrations are provided as 4×-speed previews. Each video 
 | Natural long | <video controls muted loop width="320"><source src="assets/videos/05_natural_long_4x.mp4" type="video/mp4"></video><br>[Open video](assets/videos/05_natural_long_4x.mp4) |
 | Sea | <video controls muted loop width="320"><source src="assets/videos/06_sea_4x.mp4" type="video/mp4"></video><br>[Open video](assets/videos/06_sea_4x.mp4) |
 
-## Reproducibility notes
-
-The repository contains the code used for the manuscript experiments, but does not redistribute Wan2.1 weights, private training data, LoRA checkpoints, or spectral-stabilizer checkpoints. Results in the paper should therefore be interpreted as reported experimental records; running the public scripts with different checkpoints or data may produce different values.
-
-## Citation
-
-```bibtex
-@article{rao2026solp,
-  title   = {SOLP: Subspace-Orthogonal Latent Perturbation for Stable Long-Horizon Video Generation},
-  author  = {Rao, Zhifeng and Zheng, Mingkai},
-  journal = {Neural Networks},
-  year    = {2026}
-}
-```
